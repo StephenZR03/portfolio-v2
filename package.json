@@ -20,6 +20,8 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@fontsource/geist-sans": "^5.0.3",
+    "@fontsource/ibm-plex-serif": "^5.0.13",
     "@fontsource/inter": "^5.0.18",
     "framer-motion": "^11.1.9",
     "next": "^14.2.3",

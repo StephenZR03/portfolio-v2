@@ -1,5 +1,27 @@
-@media (min-width: 1024px) {
-    .mobile_nav {
-        visibility: hidden !important;
-    }
+.menu_button,
+.menu_button:active,
+.light_menu:active {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.menu_button:focus {
+    outline: none !important;
+}
+
+.light_menu {
+    background-color: #ede4d9 !important;
+}
+
+.light_menu:focus {
+    background-color: #ffffff80 !important;
+}
+
+:only-child.light_menu {
+    border: 1px solid #19253640 !important;
 }
